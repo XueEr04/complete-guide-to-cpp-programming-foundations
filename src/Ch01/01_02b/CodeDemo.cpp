@@ -37,3 +37,11 @@ int main(){         //main entry point of our programme,
 //Hence, right before returning, print out two end line characters to seperate my output from the debugger's exit message. 
 }
 
+
+
+
+//A C++ program is composed of several source files that contain statements acting as intructions to perform tasks. These statements are organized in sequence inside functions. 
+//Line 5: we have a compiler directive named include. Directives always start with a hash character and they tell the compiler about operations we want it to perform on the source code. In this case, we want the compiler to include the code of the header file <iostream>. This iostream header file is a library that contains objects and functions that will allows us to print data to the screen and read data from the keyboard. 
+//In C++, every line of executable code must be a part of a function. Functions are blocks of code that perform specific tasks and can return values. Functions are defined with a return type, name and parameters.
+
+//Line 12: we have a function named 'main'. 
