@@ -44,4 +44,12 @@ int main(){         //main entry point of our programme,
 //Line 5: we have a compiler directive named include. Directives always start with a hash character and they tell the compiler about operations we want it to perform on the source code. In this case, we want the compiler to include the code of the header file <iostream>. This iostream header file is a library that contains objects and functions that will allows us to print data to the screen and read data from the keyboard. 
 //In C++, every line of executable code must be a part of a function. Functions are blocks of code that perform specific tasks and can return values. Functions are defined with a return type, name and parameters.
 
-//Line 12: we have a function named 'main'. 
+//Line 12: we have a function named 'main'. Every C++ program must have a main function, because it is the starting point of the program. The word 'int' is the return type, and it means that the function will return an integer value. This is a requirement for the 'main' function. 
+//The code inside the curly brackets following 'main' is the body of the function, where the program's instructions are executed. The curly brackets act as markers for the beginning and end of the function, but they are also used to delimit blocks of code in statements like if, else, and loops.
+
+//Line 27: we have our first statement. All statements in C++ end with a semicolon. This is very important and it's usually a source of bugs for beginners. In this line, we use std::cout to send the string 'Hi there' to the standard output, which is typically the screen. The double less than operator is used to direct the string to std::cout. 
+//std::endl is used to insert a new line character and flash the output buffer. It would be like hitting enter on the terminal.
+
+//Line 29: std::cout is used again, but this time it's directing std::endl twice to insert two new line characters , creating a blank line. 
+
+//Line 30: the return zero statement ends the main function. Returning zero typically indicates that the program has executed successfully. Non-zero values are usually used to identify an error. 
