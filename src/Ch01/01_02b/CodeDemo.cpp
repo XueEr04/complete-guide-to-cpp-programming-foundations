@@ -2,7 +2,7 @@
 // Exercise 01_02
 // Hello World, by Eduardo Corpeño 
 
-/*#include <iostream> //include the libraries we'll use
+#include <iostream> //include the libraries we'll use
                     //a pre-processor directive
                     //<iostream> is a part of the C++ standard library
                     //contains objects and functions to print text to the screen 
@@ -35,7 +35,7 @@ int main(){         //main entry point of our programme,
 
 //The debugger prints the messages below the output, reporting that execution is done. But it's difficult for me to tell where my output ends and where the debugger's exit message begins.
 //Hence, right before returning, print out two end line characters to seperate my output from the debugger's exit message. 
-}*/
+}
 
 
 
@@ -71,14 +71,14 @@ int main(){
 
 
 
-
+/*
 #include <iostream>
 
 int main(int argc, char* argv[]){
     std::cout << "Hi there" << std::endl;
     return 0;
 }
-
+*/
 
 //Line 75-80: what we have here is a classic command line program that produces an executable just like the ones you may have used in the Linux or Windows command lines to make new directories, list files, change directories, or manipulate a Git repository. 
 //Line 77: here we define the main function , but this time it takes two arguments -- 'int argc' and 'char* argv[]'. Here, 'argc' is an integer that represents the number of command line arguments passed to the program, and 'argv' is an array of C-style strings representing those arguments. The command line interface will write into these arguments according to the arguments you type in the command line after the executable name. 
