@@ -53,3 +53,32 @@ int main(){         //main entry point of our programme,
 //Line 29: std::cout is used again, but this time it's directing std::endl twice to insert two new line characters , creating a blank line. 
 
 //Line 30: the return zero statement ends the main function. Returning zero typically indicates that the program has executed successfully. Non-zero values are usually used to identify an error. 
+
+
+
+/*
+#include <cstdio>
+
+int main(){
+    printf("Hey there \n");
+    return 0;
+}
+*/
+
+//Line 60: this directive includes the <cstdio> header file, which provides functionalities for C-style input and output operations. 
+//Line 63: uses 'printf' function to print the string "Hey there" followed by a new line character encoded by \n. This is one of the most widely used escape sequences inside strings in C and C++.
+//Pay attention to how we call functions in C++. We use the name of the funciton, followed by a list of arguments between parentheses. In this case, we are calling the 'printf' function sending one single argument, which is a string enclosed by double quotes. 
+
+
+
+/*
+#include <iostream>
+
+int main(int argc, char* argv[]){
+    std::cout << "Hi there" << std::endl;
+    return 0;
+}
+*/
+
+//Line 75-80: what we have here is a classic command line program that produces an executable just like the ones you may have used in the Linux or Windows command lines to make new directories, list files, change directories, or manipulate a Git repository. 
+//Line 77: here we define the main function , but this time it takes two arguments -- 'int argc' and 'char* argv[]'. Here, 'argc' is an integer that represents the number of command line arguments passed to the program, and 'argv' is an array of C-style strings representing those arguments. The command line interface will write into these arguments according to the arguments you type in the command line after the executable name. 
